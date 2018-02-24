@@ -33,11 +33,11 @@ There are three ways to download this project:
 
     $ wget https://github.com/mikrohash/jota-example/archive/master.zip
     $ unzip master.zip
-    $ cd jota-example
+    $ cd jota-example-master
     
 ### DOWNLOAD VIA GIT
 
-	$ git clone https://github.com/mikrohash/jota-example/archive/master.zip
+	$ git clone https://github.com/mikrohash/jota-example/
     $ cd jota-example
 
 ## 4) CREATE AN EXECUTABLE JAR FILE
