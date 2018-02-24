@@ -44,7 +44,7 @@ There are three ways to download this project:
 
     $ mvn install
     
-The last command will create a "**target**" directory, in which you will find your executable jar file.
+This will create a '*target/*' directory, in which you will find your executable jar file.
 
 ## 5) EXECUTING THE JAR FILE
 
