@@ -8,18 +8,7 @@ This is an example on how to use the official iota java library ([iota.lib.java]
 
 You need to have Maven and the JRE (or the JDK, which includes the JRE) installed.
 
-## 2) LOCALLY INSTALL THE IOTA LIBRARY
-
-Also, you have to install the official iota.lib.java library (this example was built for 0.9.11-SNAPSHOT, if you are using a newer version, you have to modify the pom.xml accordingly):
-
-    $ wget https://github.com/iotaledger/iota.lib.java/archive/master.zip
-    $ unzip master.zip
-    $ cd iota.lib.java-master
-    $ mvn install
-    $ mvn install:install-file -Dfile=jota/target/jota-0.9.11-SNAPSHOT.jar -DgroupId=com.github.iotaledger -DartifactId=iota.lib.java -Dversion=0.9.11-SNAPSHOT -Dpackaging=jar
-
-
-## 3) DOWNLOAD THE PROJECT
+## 2) DOWNLOAD THE PROJECT
 
 There are three ways to download this project:
 
@@ -40,13 +29,13 @@ There are three ways to download this project:
 	$ git clone https://github.com/mikrohash/jota-example/
     $ cd jota-example
 
-## 4) CREATE AN EXECUTABLE JAR FILE
+## 3) CREATE AN EXECUTABLE JAR FILE
 
     $ mvn install
     
 This will create a '*target/*' directory, in which you will find your executable jar file.
 
-## 5) EXECUTING THE JAR FILE
+## 4) EXECUTING THE JAR FILE
 
 Simply start the .jar with your JRE:
 

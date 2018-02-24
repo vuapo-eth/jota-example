@@ -2,6 +2,7 @@ package example;
 
 import jota.IotaAPI;
 import jota.dto.response.GetNodeInfoResponse;
+import jota.dto.response.GetTransactionsToApproveResponse;
 
 public class Main {
 	
@@ -22,6 +23,7 @@ public class Main {
 			
 			GetNodeInfoResponse getNodeInfoResponse = api.getNodeInfo();
 			int latestMilestoneIndex = getNodeInfoResponse.getLatestMilestoneIndex();
+			
 			System.out.println("\nSUCCESS: Latest Milestone Index: " + latestMilestoneIndex);
 		} catch(Throwable e) {
 			System.err.println("\nERROR: Something went wrong: " + e.getMessage());
